@@ -1,9 +1,109 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Sample Text</title>
+<title>Gamer Zone</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #066;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 400px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  height: 400px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #066;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
 </head>
-<body bgcolor=#C57F7F text=#FFFFFF background="honey.jpg">
-  <a href="CrappyGame.zip" download>CLICK HERE FOR CRAPPY GAME</a>
-  <a href="Boxbuild1.zip" download>CLICK HERE FOR BOX BATTLE 1</a>
-</body>   
-</html>  
+<body>
+
+
+
+<header>
+  <h2>Gamer Town</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	<h1>DOWNLOADS</h1>
+      <li><a href="CrappyGame.zip">CrappyGame</a></li>
+      <li><a href="Boxbuild1.zip">BoxBattle</a></li>
+      <li><a href="TerminalHacker.zip">TerminalHacker</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>CrappyGame</h1>
+    <p>First Geme, best geme.</p>
+    <p>You are bee. Don't not unaliveen't</p>
+	<h1>BoxBattle</h1>
+    <p>Bad game.</p>
+    <p>Wrork in progress. Shoot bozx</p>
+	<h1>TerminalHacker</h1>
+    <p>Meh.</p>
+    <p>Type and hacker man</p>
+  </article>
+</section>
+\
+<footer>
+  <p> Hello. Hello. Hello. Hello. Hello. Hello. Hello. Hello. Hello. Hello. Hello. Hello. Hello. Hello. Hello.</p>
+</footer>
+
+</body>
+</html>
