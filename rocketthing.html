@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gamer Zone</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #066;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 400px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  height: 400px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #066;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>ROCKETTHING</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	<h1>VERSIONS AND DOWNLOADS</h1>
+      <li><a href="/RocketThing.zip">Rocket Thing Ver 1.0</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Information</h1>
+	<p>This is like the only game I'm proud of and like it's mediorce. Sure it may be apart of a</p>
+	<p>tutorial series thing I'm doing but I like it and added my own stuff. You are like a rocket</p>
+	<p>guy and you gotta not die. The graphics kinda banging not gonna lie and there's 10 levels in</p>
+	<p>variyingiing difficulty so like enjoy.</p>
+  </article>
+</section>
+\
+<footer>
+  <p> Credit to me for website design, credit to me for game design, credit to me for code used, credit to me for being cool.</p>
+</footer>
+
+</body>
+</html>
